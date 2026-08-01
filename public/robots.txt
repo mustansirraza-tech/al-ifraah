@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://al-ifraahtravels.com/sitemap.xml
+
+# Targeting Umrah, Hajj, and Islamic travel searches
+# AL-IFRAAH Tours & Travels - Hyderabad
