@@ -5,6 +5,9 @@ import {
   MapPin,
   Star,
 } from "lucide-react";
+import kaabaImg from "../assets/images/kaaba1.png";
+import madinaImg from "../assets/images/madina.png";
+import baghdadImg from "../assets/images/baghdad1.png";
 
 const HeroSection = () => {
   const message = encodeURIComponent("Assalamu alaikum, aur packages ke details chahiye");
@@ -132,7 +135,7 @@ const HeroSection = () => {
             transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
             className="absolute top-[0%] right-[0%] w-[85%] h-[480px] rounded-[2.5rem] overflow-hidden border-2 border-white/20 shadow-2xl z-10"
           >
-            <img src="../src/assets/images/kaaba1.jpeg" alt="Makkah" className="w-full h-full object-cover" />
+            <img src={kaabaImg} alt="Makkah" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#1f0b34]/60 to-transparent"></div>
           </motion.div>
 
@@ -142,7 +145,7 @@ const HeroSection = () => {
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1 }}
             className="absolute bottom-[10%] left-[-5%] w-[65%] h-[380px] rounded-[2.5rem] overflow-hidden border-4 border-[#2b1147] shadow-[0_20px_50px_rgba(0,0,0,0.6)] z-20"
           >
-            <img src="../src/assets/images/madina.jpeg" alt="Madina" className="w-full h-full object-cover" />
+            <img src={madinaImg} alt="Madina" className="w-full h-full object-cover" />
           </motion.div>
 
           {/* Image 3: Bottom Right (Small) */}
@@ -151,7 +154,7 @@ const HeroSection = () => {
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 2 }}
             className="absolute bottom-[5%] right-[-5%] w-[50%] h-[300px] rounded-[2.5rem] overflow-hidden border-4 border-[#2b1147] shadow-[0_20px_50px_rgba(0,0,0,0.6)] z-30"
           >
-            <img src="../src/assets/images/baghdad1.jpeg" alt="Baghdad" className="w-full h-full object-cover" />
+            <img src={baghdadImg} alt="Baghdad" className="w-full h-full object-cover" />
           </motion.div>
 
           {/* Floating Card */}

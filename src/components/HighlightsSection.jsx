@@ -9,7 +9,7 @@ import {
   ShieldCheck,
   Headphones,
 } from "lucide-react";
-import baghdadImg from "../assets/images/baghdad1.jpeg";
+import baghdadImg from "../assets/images/baghdad1.png";
 
 const umrahFeatures = [
   "Comfortable hotel stays near Haram",

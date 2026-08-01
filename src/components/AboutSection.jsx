@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { CheckCircle2, MapPin } from "lucide-react";
+import madinaImg from "../assets/images/madina.png";
 
 const locations = [
   "Hyderabad",
@@ -38,7 +39,7 @@ const AboutSection = () => {
           {/* Main Image */}
           <div className="rounded-[35px] overflow-hidden shadow-2xl border border-white">
             <img
-              src="../src/assets/images/madina.jpeg"
+              src={madinaImg}
               alt="About AL-IFRAAH"
               className="w-full h-[700px] object-cover"
             />

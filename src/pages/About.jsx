@@ -12,10 +12,11 @@ import {
   Compass,
   Eye,
   Award,
-  BookOpen
 } from "lucide-react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import kaabaImg from "../assets/images/kaaba1.png";
+import madinaImg from "../assets/images/madina.png";
 
 const AboutPage = () => {
   const message = encodeURIComponent("Assalamu alaikum, aur packages ke details chahiye");
@@ -111,7 +112,7 @@ const AboutPage = () => {
                 className="absolute top-0 right-0 w-[80%] h-[450px] rounded-[2rem] overflow-hidden border-2 border-white/20 shadow-2xl z-10"
               >
                 <img
-                  src="../src/assets/images/kaaba1.jpeg"
+                  src={kaabaImg}
                   alt="Kaaba"
                   className="w-full h-full object-cover"
                 />
@@ -124,7 +125,7 @@ const AboutPage = () => {
                 className="absolute bottom-0 left-0 w-[60%] h-[350px] rounded-[2rem] overflow-hidden border-4 border-[#2b1147] shadow-[0_20px_50px_rgba(0,0,0,0.5)] z-20"
               >
                 <img
-                  src="../src/assets/images/madina.jpeg"
+                  src={madinaImg}
                   alt="Madina"
                   className="w-full h-full object-cover"
                 />
@@ -215,10 +216,9 @@ const AboutPage = () => {
           </div>
         </section>
 
-        {/* OUR PHILOSOPHY (Full Width Highlight with Image Background) */}
         <section 
           className="py-24 relative overflow-hidden flex items-center justify-center min-h-[60vh] bg-fixed bg-center bg-cover" 
-          style={{ backgroundImage: "url('../src/assets/images/kaaba1.jpeg')" }}
+          style={{ backgroundImage: `url(${kaabaImg})` }}
         >
           {/* Dark Overlay */}
           <div className="absolute inset-0 bg-[#1f0b34]/85 backdrop-blur-sm"></div>
