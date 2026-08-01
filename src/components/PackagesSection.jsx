@@ -18,7 +18,7 @@ const packages = [
     features: [
       'Round Trip Flights',
       'Umrah Visa Processing',
-      '10 Nights Makkah & 5 Nights Madinah',
+      '7 Nights Makkah & 8 Nights Madinah',
       'Sharing Basis Accommodation (5-6 Persons)',
       'Complete Transportation',
       'Zamzam & Ziyarat Included',
